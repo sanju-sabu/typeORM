@@ -3,8 +3,8 @@
     "host": "typeormtest.database.windows.net",
     "port": 1433,
     "username": "typeORM",
-    "password": "nodejs123@",
-    "database": "typeORM",
+    "password": "****",
+    "database": "nodejs123@",
     "synchronize": true,
     "logging": false,
     "entities": [
