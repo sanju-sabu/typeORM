@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "sourceMap": true,
+      "lib": ["es6", "dom"],
+      "target": "ES6",
+      "module": "CommonJS",
+      "outDir": "dist",
+     // "rootDir": "d:/Epikso/Angular/mongoTypeORM",
+      "esModuleInterop": true,
+      "strict": true,
+      "moduleResolution": "node",
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true
+    },
+    "exclude": ["node_modules"]
+  }
+  
