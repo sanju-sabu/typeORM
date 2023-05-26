@@ -105,3 +105,18 @@
 
 
 // main().catch(error => console.error(error));
+
+ssms config
+{
+    "type": "mssql",
+    "host": "typeormtest.database.windows.net",
+    "port": 1433,
+    "username": "typeORM",
+    "password": "nodejs123@",
+    "database": "typeORM",
+    "synchronize": true,
+    "logging": false,
+    "entities": [
+        "entities/*.ts"
+    ]
+},

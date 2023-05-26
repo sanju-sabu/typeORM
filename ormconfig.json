@@ -1,13 +1,14 @@
+[
 {
-    "type": "mssql",
-    "host": "typeormtest.database.windows.net",
-    "port": 1433,
-    "username": "typeORM",
-    "password": "****",
-    "database": "nodejs123@",
-    "synchronize": true,
-    "logging": false,
+    "type": "postgres",
+  "host": "localhost",
+  "port": 5432,
+  "username": "postgres",
+  "password": "macha143",
+  "database": "typeORM",
+  "synchronize": true,
+  "logging": true,
     "entities": [
         "entities/*.ts"
     ]
-}
+}]
